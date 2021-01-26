@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Работа с SVG 2</h1>
+
+<button class="btn j-btn-test">
+  <div class="btn_text">Имитация запроса данных</div>
+  
+  <div class="btn_icon">
+    <!--   начало вставки SVG иконки   -->
+    <svg class="bi bi-arrow-clockwise" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M3.17 6.706a5 5 0 0 1 7.103-3.16.5.5 0 1 0 .454-.892A6 6 0 1 0 13.455 5.5a.5.5 0 0 0-.91.417 5 5 0 1 1-9.375.789z"/>
+      <path fill-rule="evenodd" d="M8.147.146a.5.5 0 0 1 .707 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 1 1-.707-.708L10.293 3 8.147.854a.5.5 0 0 1 0-.708z"/>
+    </svg>
+    <!--   конец вставки SVG иконки   -->
+    <!-- <script src="script.js"></script> -->
+  </div>
+ 
+</button>
+<button class="btn j-btn-test1">
+  <div class="btn_text">Размер</div>
+</button>
+
+<button class="btn j-btn-test2">
+  Поиск вашей геолокации
+</button>
+
+<p id = "status"></p>
+<a id = "map-link" target="_blank"></a>
+
+<h2>WebSocket Test</h2>
+
+  <button class="btn j-btn-open">Открыть соединение</button>
+  <button class="btn j-btn-close">Закрыть соединение</button>
+  <input class="input" type="text" name="limit"></input>
+  <button class="btn j-btn-send">Отправить сообщение</button>
+  <button class="btn j-btn-geo">Отправить геолокацию</button>
+
+<div id="output"></div>
+<script src="script.js"></script>
+</body>
+</html>
